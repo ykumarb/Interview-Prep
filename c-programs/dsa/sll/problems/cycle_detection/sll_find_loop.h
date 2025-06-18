@@ -97,5 +97,5 @@ struct Node {
 struct Node *sll_create_fillup_node(int);
 void sll_display(struct Node *);
 struct Node *sll_cleanup(struct Node *head);
-bool sll_find_loop(struct Node *head);
+bool sll_find_loop(struct Node *head, int *n);
 #endif /* SLL_DEBUG_H */
